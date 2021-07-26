@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".PostUpdateActivity">
+
+
+
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Menu Detail"
+                android:gravity="center"/>
+
+
+
+    <EditText
+        android:id="@+id/edt_menu_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Menu Name"/>
+
+    <EditText
+        android:id="@+id/edt_menu_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"/>
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/edt_menu_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"/>
+
+
+
+    <Button
+        android:id="@+id/btn_post_edit"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:background="#6A45D1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add / Edit"/>
+
+</LinearLayout>
